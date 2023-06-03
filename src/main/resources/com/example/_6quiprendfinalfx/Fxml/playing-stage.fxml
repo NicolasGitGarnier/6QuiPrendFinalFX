@@ -1,147 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import javafx.scene.shape.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="644.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example._6quiprendfinalfx.Views.GameController">
-    <children>
-        <ImageView fitHeight="648.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@../Background.png" />
-            </image>
-        </ImageView>
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="855.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="763.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="672.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="582.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="489.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="397.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="214.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="305.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="123.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="140.0" layoutX="31.0" layoutY="499.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="85.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="166.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="751.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="686.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="621.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="556.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="491.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="426.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="361.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="296.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="110.0" layoutX="231.0" layoutY="8.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="62.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="399.0" layoutY="152.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="327.0" layoutY="152.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="255.0" layoutY="152.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="183.0" layoutY="152.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="111.0" layoutY="152.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="40.0" layoutY="152.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Label layoutX="9.0" layoutY="182.0" prefHeight="69.0" prefWidth="34.0" text="1" textFill="WHITE">
+<AnchorPane prefHeight="644.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example._6quiprendfinalfx.Views.GameController">
+    <ImageView fitHeight="667.0" fitWidth="1051.0" layoutX="-24.0" layoutY="-12.0" pickOnBounds="true">
+        <image>
+            <Image url="@../Background.png" />
+        </image>
+    </ImageView>
+        <Pane layoutY="14.0" prefHeight="165.0" prefWidth="960.0">
+            <children>
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="135.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="205.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="276.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="348.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="419.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="491.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <ImageView fx:id="card_2_0_0" fitHeight="110.0" fitWidth="62.0" layoutX="139.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_2_0_1" fitHeight="110.0" fitWidth="62.0" layoutX="209.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_2_0_2" fitHeight="110.0" fitWidth="62.0" layoutX="280.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_2_0_3" fitHeight="110.0" fitWidth="62.0" layoutX="352.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_2_0_4" fitHeight="110.0" fitWidth="62.0" layoutX="423.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_2_0_5" fitHeight="110.0" fitWidth="62.0" layoutX="495.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="563.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="635.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="708.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="780.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <ImageView fx:id="card_2_0_6" fitHeight="110.0" fitWidth="62.0" layoutX="567.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_2_0_7" fitHeight="110.0" fitWidth="62.0" layoutX="639.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_2_0_8" fitHeight="110.0" fitWidth="62.0" layoutX="712.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_2_0_9" fitHeight="110.0" fitWidth="62.0" layoutX="784.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+         <Label layoutX="8.0" layoutY="50.0" text="Main adverse" textFill="WHITE">
             <font>
-                <Font name="Comic Sans MS" size="48.0" />
+               <Font name="Bodoni MT Condensed" size="33.0" />
             </font>
-        </Label>
-        <Label layoutX="488.0" layoutY="181.0" prefHeight="69.0" prefWidth="34.0" text="2" textFill="WHITE">
-            <font>
-                <Font name="Comic Sans MS" size="48.0" />
-            </font>
-        </Label>
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="522.0" layoutY="151.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="593.0" layoutY="151.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="665.0" layoutY="151.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="737.0" layoutY="151.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="809.0" layoutY="151.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="881.0" layoutY="151.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Label layoutX="7.0" layoutY="336.0" prefHeight="69.0" prefWidth="34.0" text="3" textFill="WHITE">
-            <font>
-                <Font name="Comic Sans MS" size="48.0" />
-            </font>
-        </Label>
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="40.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="111.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="183.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="255.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="327.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="399.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Label layoutX="489.0" layoutY="336.0" prefHeight="69.0" prefWidth="34.0" text="4" textFill="WHITE">
-            <font>
-                <Font name="Comic Sans MS" size="48.0" />
-            </font>
-        </Label>
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="522.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="593.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="665.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="737.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="809.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a688500" height="130.0" layoutX="881.0" layoutY="306.0" stroke="#070000" strokeType="INSIDE" strokeWidth="3.0" width="70.0" />
-        <ImageView fx:id="card_2_0_0" fitHeight="110.0" fitWidth="62.0" layoutX="166.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_2_0_1" fitHeight="110.0" fitWidth="62.0" layoutX="231.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_2_0_2" fitHeight="110.0" fitWidth="62.0" layoutX="294.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_2_0_3" fitHeight="110.0" fitWidth="62.0" layoutX="359.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_2_0_4" fitHeight="110.0" fitWidth="62.0" layoutX="426.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_2_0_5" fitHeight="110.0" fitWidth="62.0" layoutX="491.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_2_0_6" fitHeight="110.0" fitWidth="62.0" layoutX="556.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_2_0_7" fitHeight="110.0" fitWidth="62.0" layoutX="621.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_2_0_8" fitHeight="110.0" fitWidth="62.0" layoutX="686.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_2_0_9" fitHeight="110.0" fitWidth="62.0" layoutX="751.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_1_0" fitHeight="130.0" fitWidth="70.0" layoutX="41.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_1_1" fitHeight="130.0" fitWidth="70.0" layoutX="111.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_1_2" fitHeight="130.0" fitWidth="70.0" layoutX="183.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_1_3" fitHeight="130.0" fitWidth="70.0" layoutX="255.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_1_4" fitHeight="130.0" fitWidth="70.0" layoutX="327.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_1_5" fitHeight="130.0" fitWidth="70.0" layoutX="399.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_2_0" fitHeight="130.0" fitWidth="70.0" layoutX="522.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_2_1" fitHeight="130.0" fitWidth="70.0" layoutX="593.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_2_2" fitHeight="130.0" fitWidth="70.0" layoutX="665.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_2_3" fitHeight="130.0" fitWidth="70.0" layoutX="737.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_2_4" fitHeight="130.0" fitWidth="70.0" layoutX="809.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_2_5" fitHeight="130.0" fitWidth="70.0" layoutX="881.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_3_0" fitHeight="130.0" fitWidth="70.0" layoutX="40.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_3_1" fitHeight="130.0" fitWidth="70.0" layoutX="111.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_3_2" fitHeight="130.0" fitWidth="70.0" layoutX="183.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_3_3" fitHeight="130.0" fitWidth="70.0" layoutX="255.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_3_4" fitHeight="130.0" fitWidth="70.0" layoutX="327.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_3_5" fitHeight="130.0" fitWidth="70.0" layoutX="399.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_4_0" fitHeight="130.0" fitWidth="70.0" layoutX="522.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_4_1" fitHeight="130.0" fitWidth="70.0" layoutX="593.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_4_2" fitHeight="130.0" fitWidth="70.0" layoutX="665.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_4_3" fitHeight="130.0" fitWidth="70.0" layoutX="737.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_4_4" fitHeight="130.0" fitWidth="70.0" layoutX="809.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_0_4_5" fitHeight="130.0" fitWidth="70.0" layoutX="881.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_0" fitHeight="140.0" fitWidth="85.0" layoutX="31.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_1" fitHeight="140.0" fitWidth="85.0" layoutX="123.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_2" fitHeight="140.0" fitWidth="85.0" layoutX="214.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_3" fitHeight="140.0" fitWidth="85.0" layoutX="305.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_5" fitHeight="140.0" fitWidth="85.0" layoutX="489.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_6" fitHeight="140.0" fitWidth="85.0" layoutX="579.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_7" fitHeight="140.0" fitWidth="85.0" layoutX="675.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_8" fitHeight="140.0" fitWidth="85.0" layoutX="765.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_9" fitHeight="140.0" fitWidth="85.0" layoutX="855.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="card_1_0_4" fitHeight="140.0" fitWidth="85.0" layoutX="397.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true" />
-        <Label layoutX="15.0" layoutY="12.0" prefHeight="33.0" prefWidth="139.0" text="Your penalty" textFill="#fcfcfc">
-            <font>
-                <Font name="Comic Sans MS Bold" size="22.0" />
-            </font>
-        </Label>
+         </Label>
+            </children></Pane>
+        <Pane layoutX="5.0" layoutY="180.0" prefHeight="330.0" prefWidth="960.0">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bd9373ba" height="122.0" layoutX="14.0" layoutY="14.0" stroke="#766859" strokeType="INSIDE" width="460.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bd9373ba" height="122.0" layoutX="486.0" layoutY="14.0" stroke="#766859" strokeType="INSIDE" width="460.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bd9373ba" height="122.0" layoutX="14.0" layoutY="147.0" stroke="#766859" strokeType="INSIDE" width="460.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bd9373ba" height="122.0" layoutX="486.0" layoutY="147.0" stroke="#766859" strokeType="INSIDE" width="460.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="35.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="105.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="176.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="248.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="319.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="391.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="507.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="577.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="648.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="720.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="791.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="863.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="35.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="105.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="176.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="248.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="319.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="391.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="501.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="571.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="642.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="714.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="785.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="857.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
 
-        <Label fx:id="penalty" layoutX="91.0" layoutY="66.0" prefHeight="41.0" prefWidth="62.0" text=":X" textFill="#fcfcfc">
-            <font>
-                <Font name="Comic Sans MS Bold" size="29.0" />
-            </font>
-        </Label>
-        <Label fx:id="enemyPenalty" layoutX="897.0" layoutY="61.0" prefHeight="41.0" prefWidth="51.0" text=":X" textFill="#fcfcfc">
-            <font>
-                <Font name="Comic Sans MS Bold" size="29.0" />
-            </font>
-        </Label>
+                   <ImageView fx:id="card_0_1_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_1_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_1_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_1_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_1_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_1_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
 
-        <Label layoutX="832.0" layoutY="7.0" prefHeight="33.0" prefWidth="139.0" text="A.I penalty" textFill="#fcfcfc">
+                   <ImageView fx:id="card_0_2_0" fitHeight="110.0" fitWidth="62.0" layoutX="511.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_2_1" fitHeight="110.0" fitWidth="62.0" layoutX="581.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_2_2" fitHeight="110.0" fitWidth="62.0" layoutX="652.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_2_3" fitHeight="110.0" fitWidth="62.0" layoutX="724.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_2_4" fitHeight="110.0" fitWidth="62.0" layoutX="795.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_2_5" fitHeight="110.0" fitWidth="62.0" layoutX="867.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+
+                   <ImageView fx:id="card_0_3_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_3_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_3_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_3_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_3_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_3_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+
+                   <ImageView fx:id="card_0_4_0" fitHeight="110.0" fitWidth="62.0" layoutX="505.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_4_1" fitHeight="110.0" fitWidth="62.0" layoutX="575.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_4_2" fitHeight="110.0" fitWidth="62.0" layoutX="646.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_4_3" fitHeight="110.0" fitWidth="62.0" layoutX="718.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_4_4" fitHeight="110.0" fitWidth="62.0" layoutX="789.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_0_4_5" fitHeight="110.0" fitWidth="62.0" layoutX="861.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </Pane>
+        <Pane layoutX="-5.0" layoutY="482.0" prefHeight="166.0" prefWidth="970.0">
+            <children>
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="131.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="201.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="272.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="344.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="415.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="487.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <ImageView fx:id="card_1_0_0" fitHeight="110.0" fitWidth="62.0" layoutX="135.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_1_0_1" fitHeight="110.0" fitWidth="62.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_1_0_2" fitHeight="110.0" fitWidth="62.0" layoutX="276.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_1_0_3" fitHeight="110.0" fitWidth="62.0" layoutX="348.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_1_0_4" fitHeight="110.0" fitWidth="62.0" layoutX="419.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_1_0_5" fitHeight="110.0" fitWidth="62.0" layoutX="491.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="559.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="631.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="704.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="776.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <ImageView fx:id="card_1_0_6" fitHeight="110.0" fitWidth="62.0" layoutX="563.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_1_0_7" fitHeight="110.0" fitWidth="62.0" layoutX="635.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_1_0_8" fitHeight="110.0" fitWidth="62.0" layoutX="708.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="card_1_0_9" fitHeight="110.0" fitWidth="62.0" layoutX="780.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+         <Label layoutX="14.0" layoutY="45.0" text="Votre Main" textFill="WHITE">
             <font>
-                <Font name="Comic Sans MS Bold" size="22.0" />
+               <Font name="Bodoni MT Condensed" size="33.0" />
             </font>
-        </Label>
-    </children>
+         </Label>
+            </children>
+        </Pane>
 </AnchorPane>

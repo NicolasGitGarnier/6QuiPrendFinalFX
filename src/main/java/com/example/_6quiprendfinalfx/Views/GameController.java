@@ -19,8 +19,6 @@ import static com.example._6quiprendfinalfx.model.Cards.Cards.distributeRandomCa
 
 public class GameController implements Initializable {
     @FXML
-    private AnchorPane mainPane;
-    @FXML
     private ImageView card_0_1_0;
     @FXML
     private ImageView card_0_1_1;
@@ -30,8 +28,6 @@ public class GameController implements Initializable {
     private ImageView card_0_1_3;
     @FXML
     private ImageView card_0_1_4;
-    @FXML
-    private ImageView card_0_1_5;
     @FXML
     private ImageView card_0_2_0;
     @FXML
@@ -43,8 +39,6 @@ public class GameController implements Initializable {
     @FXML
     private ImageView card_0_2_4;
     @FXML
-    private ImageView card_0_2_5;
-    @FXML
     private ImageView card_0_3_0;
     @FXML
     private ImageView card_0_3_1;
@@ -55,8 +49,6 @@ public class GameController implements Initializable {
     @FXML
     private ImageView card_0_3_4;
     @FXML
-    private ImageView card_0_3_5;
-    @FXML
     private ImageView card_0_4_0;
     @FXML
     private ImageView card_0_4_1;
@@ -66,8 +58,6 @@ public class GameController implements Initializable {
     private ImageView card_0_4_3;
     @FXML
     private ImageView card_0_4_4;
-    @FXML
-    private ImageView card_0_4_5;
     @FXML
     private ImageView card_1_0_0;
     @FXML

@@ -14,7 +14,7 @@ public class PlayerView {
         handCardsViews = new ArrayList<>(); // Liste vide -> Pas de cartes
     }
     public void addCardToHand(Card card) {
-        CardView cardView = new CardView(card, 65, 115);
+        CardView cardView = new CardView(card, 78, 120);
         handCardsViews.add(cardView);
         component.getChildren().add(cardView.getComponent());
     }
