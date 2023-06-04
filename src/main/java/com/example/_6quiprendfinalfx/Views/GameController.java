@@ -1,9 +1,9 @@
 package com.example._6quiprendfinalfx.Views;
 
-import com.example._6quiprendfinalfx.Views.CardsView.CardStackView;
+import com.example._6quiprendfinalfx.Views.CardsView.CardRowView;
 import com.example._6quiprendfinalfx.model.Cards.Card;
-import com.example._6quiprendfinalfx.model.Cards.CardSet;
-import com.example._6quiprendfinalfx.model.Cards.CardStack;
+import com.example._6quiprendfinalfx.model.Cards.Hand;
+import com.example._6quiprendfinalfx.model.Cards.Rows;
 import com.example._6quiprendfinalfx.model.Player;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -13,8 +13,8 @@ import javafx.scene.image.ImageView;
 import java.net.URL;
 import java.util.*;
 
-import static com.example._6quiprendfinalfx.model.Cards.Cards.cards;
-import static com.example._6quiprendfinalfx.model.Cards.Cards.distributeRandomCards;
+import static com.example._6quiprendfinalfx.model.Cards.Deck.cards;
+import static com.example._6quiprendfinalfx.model.Cards.Deck.distributeRandomCards;
 
 public class GameController implements Initializable {
     // Cards Player 1
@@ -120,8 +120,8 @@ public class GameController implements Initializable {
     public boolean isFinished;
     private List<Player> players;
     private List<Card> allCards;
-    private List<CardStack> CardRows;
-    private List<CardStackView> CardRowsView;
+    private List<Rows> CardRows;
+    private List<CardRowView> CardRowsView;
 
 
     public GameController() {
@@ -131,7 +131,7 @@ public class GameController implements Initializable {
         this.CardRows = new ArrayList<>();
         Random rand = new Random();
         for (int i = 0; i < 4; i++) {
-            this.CardRows.add(new CardStack(allCards.remove(rand.nextInt(allCards.size()))));
+            this.CardRows.add(new Rows(allCards.remove(rand.nextInt(allCards.size()))));
         }
         this.CardRowsView = new ArrayList<>();
     }
@@ -170,48 +170,48 @@ public class GameController implements Initializable {
         players.get(1).addCardImageView(cardP2_8);
         players.get(1).addCardImageView(cardP2_9);
 // --------------------- Rows cards distribution --------------------------------
-        CardStackView cardStackView1 = new CardStackView();
-        CardStackView cardStackView2 = new CardStackView();
-        CardStackView cardStackView3 = new CardStackView();
-        CardStackView cardStackView4 = new CardStackView();
+        CardRowView cardRowView1 = new CardRowView();
+        CardRowView cardRowView2 = new CardRowView();
+        CardRowView cardRowView3 = new CardRowView();
+        CardRowView cardRowView4 = new CardRowView();
 
-        cardStackView1.add(cardR1_0);
-        cardStackView1.add(cardR1_1);
-        cardStackView1.add(cardR1_2);
-        cardStackView1.add(cardR1_3);
-        cardStackView1.add(cardR1_4);
-        cardStackView1.add(cardR1_5);
+        cardRowView1.add(cardR1_0);
+        cardRowView1.add(cardR1_1);
+        cardRowView1.add(cardR1_2);
+        cardRowView1.add(cardR1_3);
+        cardRowView1.add(cardR1_4);
+        //cardRowView1.add(cardR1_5);
 
-        cardStackView2.add(cardR2_0);
-        cardStackView2.add(cardR2_1);
-        cardStackView2.add(cardR2_2);
-        cardStackView2.add(cardR2_3);
-        cardStackView2.add(cardR2_4);
-        cardStackView2.add(cardR2_5);
+        cardRowView2.add(cardR2_0);
+        cardRowView2.add(cardR2_1);
+        cardRowView2.add(cardR2_2);
+        cardRowView2.add(cardR2_3);
+        cardRowView2.add(cardR2_4);
+        //cardRowView2.add(cardR2_5);
 
-        cardStackView3.add(cardR3_0);
-        cardStackView3.add(cardR3_1);
-        cardStackView3.add(cardR3_2);
-        cardStackView3.add(cardR3_3);
-        cardStackView3.add(cardR3_4);
-        cardStackView3.add(cardR3_5);
+        cardRowView3.add(cardR3_0);
+        cardRowView3.add(cardR3_1);
+        cardRowView3.add(cardR3_2);
+        cardRowView3.add(cardR3_3);
+        cardRowView3.add(cardR3_4);
+        //cardRowView3.add(cardR3_5);
 
-        cardStackView4.add(cardR4_0);
-        cardStackView4.add(cardR4_1);
-        cardStackView4.add(cardR4_2);
-        cardStackView4.add(cardR4_3);
-        cardStackView4.add(cardR4_4);
-        cardStackView4.add(cardR4_5);
+        cardRowView4.add(cardR4_0);
+        cardRowView4.add(cardR4_1);
+        cardRowView4.add(cardR4_2);
+        cardRowView4.add(cardR4_3);
+        cardRowView4.add(cardR4_4);
+        //cardRowView4.add(cardR4_5);
 
-        CardRowsView.add(cardStackView1);
-        CardRowsView.add(cardStackView2);
-        CardRowsView.add(cardStackView3);
-        CardRowsView.add(cardStackView4);
+        CardRowsView.add(cardRowView1);
+        CardRowsView.add(cardRowView2);
+        CardRowsView.add(cardRowView3);
+        CardRowsView.add(cardRowView4);
 
-        List<CardSet> cardSets = distributeRandomCards(2, new Random(), allCards);
+        List<Hand> hands = distributeRandomCards(2, new Random(), allCards);
         for (Player player : players) { // Ajoute les cartes aux mains des joueurs et met les images à jour
             int i=0;
-            for (Card card : cardSets.remove(0).getCards().stream().toList()) { // Parcour (via stream) le cardset sans la carte(0) et le transforme en liste
+            for (Card card : hands.remove(0).getCards().stream().toList()) { // Parcour (via stream) le cardset sans la carte(0) et le transforme en liste
                 player.addCardToHand(card);
                 System.out.println(player.getHandImages());
                 player.getHandImages().get(i).setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream(getCardImagePath(card)))));

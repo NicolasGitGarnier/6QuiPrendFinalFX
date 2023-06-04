@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class Cards {
+public class Deck {
     public static final int MIN_CARD_VALUE = 1;
     public static final int MAX_CARD_VALUE = 104;
     public static final int DEFAULT_CARDS_COUNT_PER_PLAYER = 10;
@@ -17,6 +17,7 @@ public class Cards {
         }
         return Collections.unmodifiableList(listofcards);
     }
+
     public static int cardPenalty(int number) { // A modifier
         if (number == 55) {
             return 7;
@@ -30,10 +31,10 @@ public class Cards {
             return 1;
         }
     }
-    public static List<CardSet> distributeRandomCards(int nPlayer, Random random, List<Card> cards) {
+    public static List<Hand> distributeRandomCards(int nPlayer, Random random, List<Card> cards) {
         return distributeRandomCards(nPlayer, random, cards, DEFAULT_CARDS_COUNT_PER_PLAYER);
     }
-    public static List<CardSet> distributeRandomCards(int Players, Random rand, List<Card> cards, int CardQuantity) {
+    public static List<Hand> distributeRandomCards(int Players, Random rand, List<Card> cards, int CardQuantity) {
         if (Players < 0 || Players > 10) throw new IllegalArgumentException();
         List<Card> remainingCards = new ArrayList<>(cards);
         List<List<Card>> playerCards = new ArrayList<>();
@@ -44,15 +45,18 @@ public class Cards {
 
         for (int i = 0; i < CardQuantity; i++) { // Distribue aléatoirement les cartes aux joueurs
             for (List<Card> playerHand : playerCards) {
-                int Cardindex = rand.nextInt(remainingCards.size());
-                Card card = remainingCards.remove(Cardindex);
+                int indexCard = rand.nextInt(remainingCards.size());
+                Card card = remainingCards.remove(indexCard);
                 playerHand.add(card);
             }
         }
-        List<CardSet> TotalPlayerHands = new ArrayList<>(Players);
+        List<Hand> TotalPlayerHands = new ArrayList<>(Players);
         for (List<Card> playerHand : playerCards) {
-            TotalPlayerHands.add(new CardSet(playerHand));
+            TotalPlayerHands.add(new Hand(playerHand));
         }
         return TotalPlayerHands;
+        // TotalPlayerHands = Liste de 2 elements (2 joueurs) qui contient chacun un CardSet (qui est une liste de 10 cartes)
+        // Ça permet de renvoyer les mains de chaque joueur pour pouvoir les afficher. Dans l'idée d'implémenter par la suite l'affichage
+        // face caché des cartes de l'adversaire.
     }
 }

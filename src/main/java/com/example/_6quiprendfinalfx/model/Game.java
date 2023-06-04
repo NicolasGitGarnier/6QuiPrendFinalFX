@@ -1,15 +1,15 @@
 package com.example._6quiprendfinalfx.model;
 import com.example._6quiprendfinalfx.model.Cards.Card;
-import com.example._6quiprendfinalfx.model.Cards.CardSet;
-import com.example._6quiprendfinalfx.model.Cards.CardStack;
+import com.example._6quiprendfinalfx.model.Cards.Hand;
+import com.example._6quiprendfinalfx.model.Cards.Rows;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
 import java.util.*;
 
-import static com.example._6quiprendfinalfx.model.Cards.Cards.cards;
-import static com.example._6quiprendfinalfx.model.Cards.Cards.distributeRandomCards;
+import static com.example._6quiprendfinalfx.model.Cards.Deck.cards;
+import static com.example._6quiprendfinalfx.model.Cards.Deck.distributeRandomCards;
 
 @Getter
 @Setter
@@ -18,8 +18,8 @@ public class Game {
     public boolean isFinished;
     private List<Player> players;
     private List<Card> allCards;
-    private List<CardStack> tableRows;
-    private CardStack selectedRow;
+    private List<Rows> tableRows;
+    private Rows selectedRow;
     private List<Card> cardsToPlay;
     private Map<Player, Card> playerToCardPlayed;
     private Player currentPlayer;
@@ -34,7 +34,7 @@ public class Game {
         this.playerToCardPlayed = new HashMap<>();
         Random rand = new Random();
         for (int i = 0; i < 4; i++) {
-            this.tableRows.add(new CardStack(allCards.remove(rand.nextInt(allCards.size()))));
+            this.tableRows.add(new Rows(allCards.remove(rand.nextInt(allCards.size()))));
         }
     }
     public void addPlayer(Player player) {
@@ -45,14 +45,14 @@ public class Game {
         addPlayer(new Player("Joueur ",false));
         addPlayer(new Player("IA ",true));
 
-        List<CardSet> cardSets = distributeRandomCards(nbPlayers, new Random(), allCards, nbCards);
+        List<Hand> hands = distributeRandomCards(nbPlayers, new Random(), allCards, nbCards);
         for (Player player : players) {
-            for (Card card : cardSets.remove(0).getCards().stream().toList()) {
+            for (Card card : hands.remove(0).getCards().stream().toList()) {
                 player.addCardToHand(card);
             }
         }
-        for (CardStack cardStack : tableRows) {
-            System.out.println(cardStack.getCards());
+        for (Rows rows : tableRows) {
+            System.out.println(rows.getCards());
         }
         currentPlayerIndex = 0;
         currentPlayer = players.get(currentPlayerIndex);

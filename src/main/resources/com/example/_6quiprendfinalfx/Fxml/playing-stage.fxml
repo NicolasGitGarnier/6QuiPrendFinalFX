@@ -51,53 +51,53 @@
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="176.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="248.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="319.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="391.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <!-- <Rectangle arcHeight="15.0" arcWidth="15.0" fill="DODGERBLUE" height="102.0" layoutX="391.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" /> -->
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="507.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="577.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="648.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="720.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="791.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="863.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <!-- <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#60d968" height="102.0" layoutX="863.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="70.0" /> -->
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="35.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="105.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="176.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="248.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="319.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="391.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <!-- <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#e8cb76" height="102.0" layoutX="391.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="70.0" /> -->
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="501.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="571.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="642.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="714.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="785.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-                <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="857.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                <!-- <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="857.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" /> -->
 
-                   <ImageView fx:id="cardR1_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR1_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR1_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR1_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR1_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR1_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                   <ImageView fx:id="cardR1_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR1_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR1_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR1_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR1_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <!-- <ImageView fx:id="cardR1_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" /> -->
 
-                   <ImageView fx:id="cardR2_0" fitHeight="110.0" fitWidth="62.0" layoutX="511.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR2_1" fitHeight="110.0" fitWidth="62.0" layoutX="581.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR2_2" fitHeight="110.0" fitWidth="62.0" layoutX="652.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR2_3" fitHeight="110.0" fitWidth="62.0" layoutX="724.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR2_4" fitHeight="110.0" fitWidth="62.0" layoutX="795.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR2_5" fitHeight="110.0" fitWidth="62.0" layoutX="867.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                   <ImageView fx:id="cardR2_0" fitHeight="110.0" fitWidth="62.0" layoutX="511.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR2_1" fitHeight="110.0" fitWidth="62.0" layoutX="581.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR2_2" fitHeight="110.0" fitWidth="62.0" layoutX="652.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR2_3" fitHeight="110.0" fitWidth="62.0" layoutX="724.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR2_4" fitHeight="110.0" fitWidth="62.0" layoutX="795.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                <!-- <ImageView fx:id="cardR2_5" fitHeight="110.0" fitWidth="62.0" layoutX="867.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" /> -->
 
-                   <ImageView fx:id="cardR3_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR3_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR3_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR3_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR3_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR3_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                   <ImageView fx:id="cardR3_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR3_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR3_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR3_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR3_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" />
+                <!-- <ImageView fx:id="cardR3_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" /> -->
 
                    <ImageView fx:id="cardR4_0" fitHeight="110.0" fitWidth="62.0" layoutX="505.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
                 <ImageView fx:id="cardR4_1" fitHeight="110.0" fitWidth="62.0" layoutX="575.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
                 <ImageView fx:id="cardR4_2" fitHeight="110.0" fitWidth="62.0" layoutX="646.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
                 <ImageView fx:id="cardR4_3" fitHeight="110.0" fitWidth="62.0" layoutX="718.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
                 <ImageView fx:id="cardR4_4" fitHeight="110.0" fitWidth="62.0" layoutX="789.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="cardR4_5" fitHeight="110.0" fitWidth="62.0" layoutX="861.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <!-- <ImageView fx:id="cardR4_5" fitHeight="110.0" fitWidth="62.0" layoutX="861.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" /> -->
             </children>
         </Pane>
         <Pane layoutX="-5.0" layoutY="482.0" prefHeight="166.0" prefWidth="970.0">

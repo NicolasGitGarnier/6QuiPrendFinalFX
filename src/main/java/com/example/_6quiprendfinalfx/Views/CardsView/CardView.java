@@ -10,9 +10,8 @@ import lombok.Getter;
 public class CardView {
     @Getter
     protected Pane component;
-    protected StackPane stackFrontOrBack;
+    protected StackPane stackView;
     protected ImageView frontImageView;
-    protected ImageView backImageView;
     protected Card card;
     protected boolean frontSide;
     public CardView(Card card, int width, int height) {
@@ -23,17 +22,12 @@ public class CardView {
         }
         component = new Pane();
         Image frontImage = CardImages.getFrontCardImage(card);
-        Image backImage = CardImages.getBacksideImage();
         frontImageView = new ImageView(frontImage);
-        frontImageView.setPreserveRatio(true);
+        frontImageView.setPreserveRatio(true); // Garder la proportion ors de l'ajustement de l'image
         frontImageView.setFitWidth(width);
 
-        backImageView = new ImageView(backImage);
-        backImageView.setPreserveRatio(true);
-        backImageView.setFitWidth(width);
-
-        stackFrontOrBack = new StackPane(backImageView, frontImageView);
-        component.getChildren().add(stackFrontOrBack);
+        stackView = new StackPane(frontImageView);
+        component.getChildren().add(stackView);
         component.setPrefSize(width, height);
     }
 }

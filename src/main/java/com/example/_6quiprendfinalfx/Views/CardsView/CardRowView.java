@@ -6,16 +6,17 @@ import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 @Data
-public class CardStackView {
+public class CardRowView {
     private List<ImageView> cardsImages = new ArrayList<>(5);
-    public CardStackView() {
+    public CardRowView() {
     }
     public void add(ImageView cardView) {
         cardsImages.add(cardView);
     }
     public void updateImageByIndex(int index, String imagelink) {
-        cardsImages.get(index).setImage(new Image(getClass().getResourceAsStream(imagelink)));
+        cardsImages.get(index).setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream(imagelink))));
     }
 }

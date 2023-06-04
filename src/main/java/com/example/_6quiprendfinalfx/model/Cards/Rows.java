@@ -9,10 +9,9 @@ import java.util.Objects;
 
 @ToString
 @Data
-public class CardStack { // Cartes par rangées
+public class Rows { // Cartes par rangées
     private List<Card> cards = new ArrayList<>(5);
-    private Boolean interacted = false;
-    public CardStack(Card firstCard) {
+    public Rows(Card firstCard) {
         Objects.requireNonNull(firstCard);
         resetWithTopCard(firstCard);
     }

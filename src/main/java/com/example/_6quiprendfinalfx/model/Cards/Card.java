@@ -6,6 +6,7 @@ import lombok.Data;
 public class Card implements Comparable<Card> {
     public final int value;
     public final int penalty;
+
     public Card(int value, int penalty) {
         this.value = value;
         this.penalty = penalty;

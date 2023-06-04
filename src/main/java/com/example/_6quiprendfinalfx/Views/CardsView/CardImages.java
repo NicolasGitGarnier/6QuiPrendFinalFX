@@ -1,7 +1,7 @@
 package com.example._6quiprendfinalfx.Views.CardsView;
 
 import com.example._6quiprendfinalfx.model.Cards.Card;
-import com.example._6quiprendfinalfx.model.Cards.Cards;
+import com.example._6quiprendfinalfx.model.Cards.Deck;
 import javafx.scene.image.Image;
 import lombok.Data;
 
@@ -23,9 +23,9 @@ public class CardImages {
         return new Image(imgUrl.toExternalForm());
     }
     private static Image[] createCardImages() {
-        Image[] res = new Image[1+ Cards.MAX_CARD_VALUE];
+        Image[] res = new Image[1+ Deck.MAX_CARD_VALUE];
         res[0] = null;
-        for(int i = 1; i <= Cards.MAX_CARD_VALUE; i++) {
+        for(int i = 1; i <= Deck.MAX_CARD_VALUE; i++) {
             URL imgUrl = CardImages.class.getResource(i + ".png");
             assert imgUrl != null;
             res[i] = new Image(imgUrl.toExternalForm());
