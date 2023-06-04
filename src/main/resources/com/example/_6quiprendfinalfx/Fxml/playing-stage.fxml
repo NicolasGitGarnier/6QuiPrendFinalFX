@@ -20,20 +20,20 @@
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="348.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="419.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="491.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-                <ImageView fx:id="card_2_0_0" fitHeight="110.0" fitWidth="62.0" layoutX="139.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_2_0_1" fitHeight="110.0" fitWidth="62.0" layoutX="209.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_2_0_2" fitHeight="110.0" fitWidth="62.0" layoutX="280.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_2_0_3" fitHeight="110.0" fitWidth="62.0" layoutX="352.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_2_0_4" fitHeight="110.0" fitWidth="62.0" layoutX="423.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_2_0_5" fitHeight="110.0" fitWidth="62.0" layoutX="495.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_0" fitHeight="110.0" fitWidth="62.0" layoutX="139.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_1" fitHeight="110.0" fitWidth="62.0" layoutX="209.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_2" fitHeight="110.0" fitWidth="62.0" layoutX="280.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_3" fitHeight="110.0" fitWidth="62.0" layoutX="352.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_4" fitHeight="110.0" fitWidth="62.0" layoutX="423.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_5" fitHeight="110.0" fitWidth="62.0" layoutX="495.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="563.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="635.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="708.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="780.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-                <ImageView fx:id="card_2_0_6" fitHeight="110.0" fitWidth="62.0" layoutX="567.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_2_0_7" fitHeight="110.0" fitWidth="62.0" layoutX="639.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_2_0_8" fitHeight="110.0" fitWidth="62.0" layoutX="712.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_2_0_9" fitHeight="110.0" fitWidth="62.0" layoutX="784.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_6" fitHeight="110.0" fitWidth="62.0" layoutX="567.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_7" fitHeight="110.0" fitWidth="62.0" layoutX="639.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_8" fitHeight="110.0" fitWidth="62.0" layoutX="712.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP2_9" fitHeight="110.0" fitWidth="62.0" layoutX="784.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
          <Label layoutX="8.0" layoutY="50.0" text="Main adverse" textFill="WHITE">
             <font>
                <Font name="Bodoni MT Condensed" size="33.0" />
@@ -71,33 +71,33 @@
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="785.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#cf74ca" height="102.0" layoutX="857.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
 
-                   <ImageView fx:id="card_0_1_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_1_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_1_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_1_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_1_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_1_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                   <ImageView fx:id="cardR1_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR1_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR1_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR1_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR1_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR1_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
 
-                   <ImageView fx:id="card_0_2_0" fitHeight="110.0" fitWidth="62.0" layoutX="511.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_2_1" fitHeight="110.0" fitWidth="62.0" layoutX="581.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_2_2" fitHeight="110.0" fitWidth="62.0" layoutX="652.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_2_3" fitHeight="110.0" fitWidth="62.0" layoutX="724.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_2_4" fitHeight="110.0" fitWidth="62.0" layoutX="795.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_2_5" fitHeight="110.0" fitWidth="62.0" layoutX="867.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                   <ImageView fx:id="cardR2_0" fitHeight="110.0" fitWidth="62.0" layoutX="511.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR2_1" fitHeight="110.0" fitWidth="62.0" layoutX="581.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR2_2" fitHeight="110.0" fitWidth="62.0" layoutX="652.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR2_3" fitHeight="110.0" fitWidth="62.0" layoutX="724.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR2_4" fitHeight="110.0" fitWidth="62.0" layoutX="795.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR2_5" fitHeight="110.0" fitWidth="62.0" layoutX="867.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
 
-                   <ImageView fx:id="card_0_3_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_3_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_3_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_3_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_3_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_3_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                   <ImageView fx:id="cardR3_0" fitHeight="110.0" fitWidth="62.0" layoutX="39.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR3_1" fitHeight="110.0" fitWidth="62.0" layoutX="109.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR3_2" fitHeight="110.0" fitWidth="62.0" layoutX="180.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR3_3" fitHeight="110.0" fitWidth="62.0" layoutX="252.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR3_4" fitHeight="110.0" fitWidth="62.0" layoutX="323.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR3_5" fitHeight="110.0" fitWidth="62.0" layoutX="395.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
 
-                   <ImageView fx:id="card_0_4_0" fitHeight="110.0" fitWidth="62.0" layoutX="505.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_4_1" fitHeight="110.0" fitWidth="62.0" layoutX="575.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_4_2" fitHeight="110.0" fitWidth="62.0" layoutX="646.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_4_3" fitHeight="110.0" fitWidth="62.0" layoutX="718.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_4_4" fitHeight="110.0" fitWidth="62.0" layoutX="789.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_0_4_5" fitHeight="110.0" fitWidth="62.0" layoutX="861.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                   <ImageView fx:id="cardR4_0" fitHeight="110.0" fitWidth="62.0" layoutX="505.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR4_1" fitHeight="110.0" fitWidth="62.0" layoutX="575.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR4_2" fitHeight="110.0" fitWidth="62.0" layoutX="646.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR4_3" fitHeight="110.0" fitWidth="62.0" layoutX="718.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR4_4" fitHeight="110.0" fitWidth="62.0" layoutX="789.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardR4_5" fitHeight="110.0" fitWidth="62.0" layoutX="861.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
             </children>
         </Pane>
         <Pane layoutX="-5.0" layoutY="482.0" prefHeight="166.0" prefWidth="970.0">
@@ -108,20 +108,20 @@
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="344.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="415.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="487.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-                <ImageView fx:id="card_1_0_0" fitHeight="110.0" fitWidth="62.0" layoutX="135.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_1_0_1" fitHeight="110.0" fitWidth="62.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_1_0_2" fitHeight="110.0" fitWidth="62.0" layoutX="276.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_1_0_3" fitHeight="110.0" fitWidth="62.0" layoutX="348.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_1_0_4" fitHeight="110.0" fitWidth="62.0" layoutX="419.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_1_0_5" fitHeight="110.0" fitWidth="62.0" layoutX="491.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_0" fitHeight="110.0" fitWidth="62.0" layoutX="135.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_1" fitHeight="110.0" fitWidth="62.0" layoutX="205.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_2" fitHeight="110.0" fitWidth="62.0" layoutX="276.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_3" fitHeight="110.0" fitWidth="62.0" layoutX="348.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_4" fitHeight="110.0" fitWidth="62.0" layoutX="419.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_5" fitHeight="110.0" fitWidth="62.0" layoutX="491.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="559.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="631.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="704.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
                 <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#b1a6ff" height="102.0" layoutX="776.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-                <ImageView fx:id="card_1_0_6" fitHeight="110.0" fitWidth="62.0" layoutX="563.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_1_0_7" fitHeight="110.0" fitWidth="62.0" layoutX="635.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_1_0_8" fitHeight="110.0" fitWidth="62.0" layoutX="708.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fx:id="card_1_0_9" fitHeight="110.0" fitWidth="62.0" layoutX="780.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_6" fitHeight="110.0" fitWidth="62.0" layoutX="563.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_7" fitHeight="110.0" fitWidth="62.0" layoutX="635.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_8" fitHeight="110.0" fitWidth="62.0" layoutX="708.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="cardP1_9" fitHeight="110.0" fitWidth="62.0" layoutX="780.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
          <Label layoutX="14.0" layoutY="45.0" text="Votre Main" textFill="WHITE">
             <font>
                <Font name="Bodoni MT Condensed" size="33.0" />
