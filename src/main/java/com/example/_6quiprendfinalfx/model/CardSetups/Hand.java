@@ -1,4 +1,4 @@
-package com.example._6quiprendfinalfx.model.Cards;
+package com.example._6quiprendfinalfx.model.CardSetups;
 
 import lombok.Data;
 import java.util.Collection;

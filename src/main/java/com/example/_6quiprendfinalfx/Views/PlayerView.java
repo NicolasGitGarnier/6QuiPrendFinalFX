@@ -1,7 +1,7 @@
 package com.example._6quiprendfinalfx.Views;
 
 import com.example._6quiprendfinalfx.Views.CardsView.CardView;
-import com.example._6quiprendfinalfx.model.Cards.Card;
+import com.example._6quiprendfinalfx.model.CardSetups.Card;
 import javafx.scene.layout.HBox;
 
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ public class PlayerView {
     private final HBox component = new HBox();
     private List<CardView> handCardsViews;
     public PlayerView() {
-        handCardsViews = new ArrayList<>(); // Liste vide -> Pas de cartes
+        handCardsViews = new ArrayList<>();
     }
     public void addCardToHand(Card card) {
         CardView cardView = new CardView(card, 78, 120);

@@ -1,15 +1,15 @@
 package com.example._6quiprendfinalfx.model;
-import com.example._6quiprendfinalfx.model.Cards.Card;
-import com.example._6quiprendfinalfx.model.Cards.Hand;
-import com.example._6quiprendfinalfx.model.Cards.Rows;
+import com.example._6quiprendfinalfx.model.CardSetups.Card;
+import com.example._6quiprendfinalfx.model.CardSetups.Hand;
+import com.example._6quiprendfinalfx.model.CardSetups.Rows;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
 import java.util.*;
 
-import static com.example._6quiprendfinalfx.model.Cards.Deck.cards;
-import static com.example._6quiprendfinalfx.model.Cards.Deck.distributeRandomCards;
+import static com.example._6quiprendfinalfx.model.CardSetups.Deck.cards;
+import static com.example._6quiprendfinalfx.model.CardSetups.Deck.distributeRandomCards;
 
 @Getter
 @Setter

@@ -1,7 +1,7 @@
 package com.example._6quiprendfinalfx.Views.CardsView;
 
-import com.example._6quiprendfinalfx.model.Cards.Card;
-import com.example._6quiprendfinalfx.model.Cards.Deck;
+import com.example._6quiprendfinalfx.model.CardSetups.Card;
+import com.example._6quiprendfinalfx.model.CardSetups.Deck;
 import javafx.scene.image.Image;
 import lombok.Data;
 

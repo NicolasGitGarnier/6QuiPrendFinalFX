@@ -12,8 +12,8 @@ module com.example._6quiprendfinalfx {
     opens com.example._6quiprendfinalfx.Views to javafx.fxml;
     exports com.example._6quiprendfinalfx.model;
     opens com.example._6quiprendfinalfx.model to javafx.fxml;
-    exports com.example._6quiprendfinalfx.model.Cards;
-    opens com.example._6quiprendfinalfx.model.Cards to javafx.fxml;
+    exports com.example._6quiprendfinalfx.model.CardSetups;
+    opens com.example._6quiprendfinalfx.model.CardSetups to javafx.fxml;
     exports com.example._6quiprendfinalfx.Views.CardsView;
     opens com.example._6quiprendfinalfx.Views.CardsView to javafx.fxml;
 }

@@ -1,9 +1,9 @@
 package com.example._6quiprendfinalfx.Views;
 
 import com.example._6quiprendfinalfx.Views.CardsView.CardRowView;
-import com.example._6quiprendfinalfx.model.Cards.Card;
-import com.example._6quiprendfinalfx.model.Cards.Hand;
-import com.example._6quiprendfinalfx.model.Cards.Rows;
+import com.example._6quiprendfinalfx.model.CardSetups.Card;
+import com.example._6quiprendfinalfx.model.CardSetups.Hand;
+import com.example._6quiprendfinalfx.model.CardSetups.Rows;
 import com.example._6quiprendfinalfx.model.Player;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -13,8 +13,8 @@ import javafx.scene.image.ImageView;
 import java.net.URL;
 import java.util.*;
 
-import static com.example._6quiprendfinalfx.model.Cards.Deck.cards;
-import static com.example._6quiprendfinalfx.model.Cards.Deck.distributeRandomCards;
+import static com.example._6quiprendfinalfx.model.CardSetups.Deck.cards;
+import static com.example._6quiprendfinalfx.model.CardSetups.Deck.distributeRandomCards;
 
 public class GameController implements Initializable {
     // Cards Player 1
