@@ -2,6 +2,7 @@ package com.example._6quiprendfinalfx.Views;
 
 import com.example._6quiprendfinalfx.Views.CardsView.CardRowView;
 import com.example._6quiprendfinalfx.model.CardSetups.Card;
+import com.example._6quiprendfinalfx.model.CardSetups.Deck;
 import com.example._6quiprendfinalfx.model.CardSetups.Hand;
 import com.example._6quiprendfinalfx.model.CardSetups.Rows;
 import com.example._6quiprendfinalfx.model.Player;
@@ -14,7 +15,7 @@ import java.net.URL;
 import java.util.*;
 
 import static com.example._6quiprendfinalfx.model.CardSetups.Deck.cards;
-import static com.example._6quiprendfinalfx.model.CardSetups.Deck.distributeRandomCards;
+import static com.example._6quiprendfinalfx.model.CardSetups.Deck.distribCards;
 
 public class GameController implements Initializable {
     // Cards Player 1
@@ -208,7 +209,7 @@ public class GameController implements Initializable {
         CardRowsView.add(cardRowView3);
         CardRowsView.add(cardRowView4);
 
-        List<Hand> hands = distributeRandomCards(2, new Random(), allCards);
+        List<Hand> hands = Deck.distribCards(2, new Random(), allCards);
         for (Player player : players) { // Ajoute les cartes aux mains des joueurs et met les images à jour
             int i=0;
             for (Card card : hands.remove(0).getCards().stream().toList()) { // Parcour (via stream) le cardset sans la carte(0) et le transforme en liste
@@ -221,7 +222,7 @@ public class GameController implements Initializable {
         for (int i=0; i<4;i++) {
             System.out.println(CardRows.get(i).getCards());
             Card CardInitialisation = CardRows.get(i).getCards().get(0);
-            CardRowsView.get(i).updateImageByIndex(0,getCardImagePath(CardInitialisation));
+            CardRowsView.get(i).updateImages(0,getCardImagePath(CardInitialisation));
         }
     }
     private String getCardImagePath(Card card){

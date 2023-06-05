@@ -16,7 +16,7 @@ public class CardRowView {
     public void add(ImageView cardView) {
         cardsImages.add(cardView);
     }
-    public void updateImageByIndex(int index, String imagelink) {
+    public void updateImages(int index, String imagelink) {
         cardsImages.get(index).setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream(imagelink))));
     }
 }

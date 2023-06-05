@@ -9,7 +9,7 @@ import lombok.ToString;
 import java.util.*;
 
 import static com.example._6quiprendfinalfx.model.CardSetups.Deck.cards;
-import static com.example._6quiprendfinalfx.model.CardSetups.Deck.distributeRandomCards;
+import static com.example._6quiprendfinalfx.model.CardSetups.Deck.distribCards;
 
 @Getter
 @Setter
@@ -23,7 +23,7 @@ public class Game {
     private List<Card> cardsToPlay;
     private Map<Player, Card> playerToCardPlayed;
     private Player currentPlayer;
-    private int currentPlayerIndex;
+    private int currentIndexPlayer;
 
     public Game() {
         this.isFinished = false;
@@ -39,13 +39,13 @@ public class Game {
     }
     public void addPlayer(Player player) {
         this.players.add(player);
-    }
+    } // Début d'ajout de plusieurs joueurs et lancement de la partie
     public void start(int nbPlayers, int nbCards) {
         Random random = new Random();
         addPlayer(new Player("Joueur ",false));
         addPlayer(new Player("IA ",true));
 
-        List<Hand> hands = distributeRandomCards(nbPlayers, new Random(), allCards, nbCards);
+        List<Hand> hands = distribCards(nbPlayers, new Random(), allCards, nbCards);
         for (Player player : players) {
             for (Card card : hands.remove(0).getCards().stream().toList()) {
                 player.addCardToHand(card);
@@ -54,7 +54,7 @@ public class Game {
         for (Rows rows : tableRows) {
             System.out.println(rows.getCards());
         }
-        currentPlayerIndex = 0;
-        currentPlayer = players.get(currentPlayerIndex);
+        currentIndexPlayer = 0;
+        currentPlayer = players.get(currentIndexPlayer);
     }
 }

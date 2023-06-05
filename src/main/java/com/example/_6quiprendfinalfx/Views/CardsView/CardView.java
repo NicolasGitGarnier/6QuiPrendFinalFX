@@ -23,7 +23,7 @@ public class CardView {
         component = new Pane();
         Image frontImage = CardImages.getFrontCardImage(card);
         frontImageView = new ImageView(frontImage);
-        frontImageView.setPreserveRatio(true); // Garder la proportion ors de l'ajustement de l'image
+        frontImageView.setPreserveRatio(true); // Garder la proportion lors de l'ajustement de l'image
         frontImageView.setFitWidth(width);
 
         stackView = new StackPane(frontImageView);

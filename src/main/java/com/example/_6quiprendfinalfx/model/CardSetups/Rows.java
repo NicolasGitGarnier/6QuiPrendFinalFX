@@ -13,12 +13,12 @@ public class Rows { // Cartes par rangées
     private List<Card> cards = new ArrayList<>(5);
     public Rows(Card firstCard) {
         Objects.requireNonNull(firstCard);
-        resetWithTopCard(firstCard);
+        rebootRow(firstCard);
     }
     public void add(Card card){
         this.cards.add(card);
     }
-    public void resetWithTopCard(Card card) {
+    public void rebootRow(Card card) {
         this.cards.clear();
         this.cards.add(card);
     }

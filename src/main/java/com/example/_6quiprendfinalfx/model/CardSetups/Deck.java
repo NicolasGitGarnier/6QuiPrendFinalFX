@@ -13,12 +13,12 @@ public class Deck {
     private static List<Card> createCards() {
         List<Card> listofcards = new ArrayList<>();
         for (int i = MIN_CARD_VALUE; i <= MAX_CARD_VALUE; i++) {
-            listofcards.add(new Card(i, cardPenalty(i)));
+            listofcards.add(new Card(i, penalities(i)));
         }
         return Collections.unmodifiableList(listofcards);
     }
 
-    public static int cardPenalty(int number) { // A modifier
+    public static int penalities(int number) { // A modifier
         if (number == 55) {
             return 7;
         } else if (number % 11 == 0) {
@@ -31,10 +31,10 @@ public class Deck {
             return 1;
         }
     }
-    public static List<Hand> distributeRandomCards(int nPlayer, Random random, List<Card> cards) {
-        return distributeRandomCards(nPlayer, random, cards, DEFAULT_CARDS_COUNT_PER_PLAYER);
+    public static List<Hand> distribCards(int nPlayer, Random random, List<Card> cards) {
+        return distribCards(nPlayer, random, cards, DEFAULT_CARDS_COUNT_PER_PLAYER);
     }
-    public static List<Hand> distributeRandomCards(int Players, Random rand, List<Card> cards, int CardQuantity) {
+    public static List<Hand> distribCards(int Players, Random rand, List<Card> cards, int CardQuantity) {
         if (Players < 0 || Players > 10) throw new IllegalArgumentException();
         List<Card> remainingCards = new ArrayList<>(cards);
         List<List<Card>> playerCards = new ArrayList<>();

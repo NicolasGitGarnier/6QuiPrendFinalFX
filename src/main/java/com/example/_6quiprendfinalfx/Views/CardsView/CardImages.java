@@ -9,15 +9,12 @@ import java.net.URL;
 
 @Data
 public class CardImages {
-    private static final Image backsideImage = createBacksizeImage();
+    private static final Image backsideImage = createBackCardImage();
     private static final Image[] cardImages = createCardImages();
-    public static Image getBacksideImage() {
-        return backsideImage;
-    }
     public static Image getFrontCardImage(Card card) {
         return (card != null)? cardImages[card.value] : backsideImage;
     }
-    private static Image createBacksizeImage() {
+    private static Image createBackCardImage() {
         URL imgUrl = CardImages.class.getResource("backside.png");
         assert imgUrl != null;
         return new Image(imgUrl.toExternalForm());

@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Card {
+  - value: int
+  - penalty: int
+  + Card(value: int, penalty: int)
+  + compareTo(otherCard: Card): int
+}
+class Deck {
+  - MIN_CARD_VALUE: int
+  - MAX_CARD_VALUE: int
+  - DEFAULT_CARDS_COUNT_PER_PLAYER: int
+  - cards: List<Card>
+  + createCards(): List<Card>
+  + penalities(number: int): int
+  + distribCards(nPlayer: int, random: Random, cards: List<Card>): List<Hand>
+  + distribCards(Players: int, rand: Random, cards: List<Card>, CardQuantity: int): List<Hand>
+}
+class Hand {
+    -cards: TreeSet<Card>
+
+    +Hand(listOfCards: Collection<Card>)
+    +add(indexCard: Card): void
+}
+class Rows {
+    -cards: List<Card>
+
+    +Rows(firstCard: Card)
+    +add(card: Card): void
+    +rebootRow(card: Card): void
+}
+class Game {
+    -isFinished: boolean
+    -players: List<Player>
+    -allCards: List<Card>
+    -tableRows: List<Rows>
+    -selectedRow: Rows
+    -cardsToPlay: List<Card>
+    -playerToCardPlayed: Map<Player, Card>
+    -currentPlayer: Player
+    -currentIndexPlayer: int
+
+    +Game()
+    +addPlayer(player: Player): void
+    +start(nbPlayers: int, nbCards: int): void
+}
+@enduml
