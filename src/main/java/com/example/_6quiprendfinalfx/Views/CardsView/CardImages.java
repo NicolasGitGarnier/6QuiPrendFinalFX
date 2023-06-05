@@ -20,13 +20,13 @@ public class CardImages {
         return new Image(imgUrl.toExternalForm());
     }
     private static Image[] createCardImages() {
-        Image[] res = new Image[1+ Deck.MAX_CARD_VALUE];
-        res[0] = null;
+        Image[] cardImage = new Image[1+ Deck.MAX_CARD_VALUE];
+        cardImage[0] = null;
         for(int i = 1; i <= Deck.MAX_CARD_VALUE; i++) {
             URL imgUrl = CardImages.class.getResource(i + ".png");
             assert imgUrl != null;
-            res[i] = new Image(imgUrl.toExternalForm());
+            cardImage[i] = new Image(imgUrl.toExternalForm());
         }
-        return res;
+        return cardImage;
     }
 }

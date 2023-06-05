@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example._6quiprendfinalfx.Views.HelloController">
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<?import javafx.scene.layout.Pane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example._6quiprendfinalfx.Views.HelloController" prefWidth="400" prefHeight="300">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+    <ImageView fitHeight="667.0" fitWidth="1051.0" layoutX="-24.0" layoutY="-12.0" pickOnBounds="true">
+        <image>
+            <Image url="@../pacc.jpg"/>
+        </image>
+    </ImageView>
+
+
+    <VBox spacing="20.0" layoutX="410.0" layoutY="465.0" style="-fx-alignment: BOTTOM_LEFT;">
+        <Pane style="-fx-position: relative; -fx-left: -100em;">
+            <Button text="start" onAction="#onStartButtonClick" style="-fx-text-fill: #ffffff;
+            -fx-font-family: 'Poor Richard';
+            -fx-font-size:5em;
+            -fx-background-color: red;
+            -fx-background-radius: 50%;
+            -fx-pref-width: 300px;">
+                <padding>
+                    <Insets right="50" left="50" />
+                </padding>
+            </Button>
+        </Pane>
+    </VBox>
+
+
+</AnchorPane>

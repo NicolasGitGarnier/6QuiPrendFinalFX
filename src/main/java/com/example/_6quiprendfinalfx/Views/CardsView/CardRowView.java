@@ -11,8 +11,7 @@ import java.util.Objects;
 @Data
 public class CardRowView {
     private List<ImageView> cardsImages = new ArrayList<>(5);
-    public CardRowView() {
-    }
+    public CardRowView() {}
     public void add(ImageView cardView) {
         cardsImages.add(cardView);
     }

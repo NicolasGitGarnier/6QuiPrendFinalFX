@@ -45,4 +45,95 @@ class Game {
     +addPlayer(player: Player): void
     +start(nbPlayers: int, nbCards: int): void
 }
+class IA {
+    // TODO: IA plays
+}
+class Player {
+    -name: String
+    -hand: List<Card>
+    -handImages: List<ImageView>
+    -penalities: int
+    -Ai: boolean
+
+    +Player(name: String, isAi: boolean)
+    +addCardToHand(card: Card): void
+    +addCardImageView(card: ImageView): void
+}
+class CardImages {
+    -backsideImage: Image
+    -cardImages: Image[]
+
+    +getFrontCardImage(card: Card): Image
+    -createBackCardImage(): Image
+    -createCardImages(): Image[]
+}
+class CardRowView {
+    -cardsImages: List<ImageView>
+
+    +CardRowView()
+    +add(cardView: ImageView): void
+    +updateImages(index: int, imagelink: String): void
+}
+class CardView {
+    -component: Pane
+    -stackView: StackPane
+    -frontImageView: ImageView
+    -card: Card
+    -frontSide: boolean
+
+    +CardView(card: Card, width: int, height: int)
+}
+class GameController {
+    -cardP1_0: ImageView
+    . . .
+    -cardR4_5: ImageView
+
+    -isFinished: boolean
+    -players: List<Player>
+    -allCards: List<Card>
+    -CardRows: List<Rows>
+    -CardRowsView: List<CardRowView>
+
+    +GameController()
+    +initialize(location: URL, resources: ResourceBundle)
+    +addPlayer(player: Player)
+    +start()
+    -getCardImagePath(card: Card): String
+}
+class HelloController {
+    -welcomeText: Label
+
+    +onHelloButtonClick()
+}
+class PlayerView {
+    -component: HBox
+    -handCardsViews: List<CardView>
+
+    +addCardToHand(card: Card)
+}
+class HelloApplication {
+    +start(stage: Stage)
+    +main(args: String[])
+}
+
+Card -- Deck
+Player -- Deck
+Player -- Card
+PlayerView -- CardView
+Rows -- Card
+Hand -- Card
+Hand -- Player
+Game -- Player
+Game -- Rows
+Game -- Card
+GameController -- Card
+GameController -- CardView
+GameController -- Player
+GameController -- CardRows
+GameController -- CardRowView
+CardImages -- Card
+CardRowView -- CardRows
+CardView -- Card
+HelloApplication -- GameController
+
 @enduml
