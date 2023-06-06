@@ -120,6 +120,7 @@ Card -- Deck
 Player -- Deck
 Player -- Card
 PlayerView -- CardView
+PlayerView -- Card
 Rows -- Card
 Hand -- Card
 Hand -- Player
@@ -129,10 +130,8 @@ Game -- Card
 GameController -- Card
 GameController -- CardView
 GameController -- Player
-GameController -- CardRows
 GameController -- CardRowView
 CardImages -- Card
-CardRowView -- CardRows
 CardView -- Card
 HelloApplication -- GameController
 

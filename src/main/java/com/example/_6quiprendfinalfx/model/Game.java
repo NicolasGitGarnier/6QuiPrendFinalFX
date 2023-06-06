@@ -21,7 +21,7 @@ public class Game {
     private List<Rows> tableRows;
     private Rows selectedRow;
     private List<Card> cardsToPlay;
-    private Map<Player, Card> playerToCardPlayed;
+    private Map<Player, Card> playerToCardPlayed; // Comme un dictionnaire qui relie les Players aux Cards
     private Player currentPlayer;
     private int currentIndexPlayer;
 
